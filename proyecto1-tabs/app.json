@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "proyecto1-tabs",
+    "slug": "proyecto1-tabs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "proyecto1tabs",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
